@@ -88,7 +88,6 @@ AWS_Services/
     
 ### Clone & Explore
     
-      ```text
       # Clone the repository
       git clone [https://github.com/AdeshYadav8918/AWS_Services.git](https://github.com/AdeshYadav8918/AWS_Services.git)
    
@@ -96,7 +95,6 @@ AWS_Services/
       cd AWS_Services/18_AWS_API_Gateway_Lambda_DynamoDB_IAM
 
       # Follow module-specific instructions or inspect script configurations
-      ```
 
 ## 🛡️ Security Best Practices
 * Credential Hygiene: All API keys, AWS credentials, and .pem SSH keys are strictly scrubbed and kept out of version control (.gitignore enforced).
