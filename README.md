@@ -53,7 +53,7 @@ AWS_Services/
 └── Reading_Materials                    # Reference Notes & Architectural Diagrams
 ```
 
-🛠️ Tech Stack & Tools Mastered
+##🛠️ Tech Stack & Tools Mastered
     Category                                 Technologies & AWS Services
     Compute & Web                            Amazon EC2, Nginx, Node.js, React.js, MERN Stack, AWS Amplify
     Networking & DNS                         AWS VPC, Public/Private Subnets, NAT Gateway, Internet Gateway, Route 53
@@ -62,7 +62,7 @@ AWS_Services/
     DevOps & IaC                             Terraform, Docker, Kubernetes, Jenkins, Bash / Shell Scripting
     Security & Admin                         AWS IAM (Roles, Policies, Trust Relationships), Linux CLI Administration
 
-🏗️ Core Architectural Patterns Implemented
+##🏗️ Core Architectural Patterns Implemented
     1. Multi-Tier Secure VPC Architecture (07_AWS_EC2_VPC – 09_AWS_EC2_MERN_DNS)
        Isolated public and private subnets across Availability Zones.
        Configured NAT Gateways to grant private database instances secure outbound internet access for updates while blocking incoming public exposure.
@@ -74,7 +74,7 @@ AWS_Services/
        Automated EC2 server provisioning using Terraform.
        Deployed a dedicated Jenkins build server on EC2 to automate deployment workflows.
 
-🚀 Prerequisites & Getting Started 
+##🚀 Prerequisites & Getting Started 
     Local Setup Requirements 
       AWS CLI v2 configured with appropriate permissions (aws configure)
       Terraform (>= v1.0)
