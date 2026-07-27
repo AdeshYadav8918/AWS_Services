@@ -4,8 +4,6 @@ A comprehensive repository documenting my hands-on journey through Cloud Enginee
 
 This repository serves as a structured archive of real-world deployments, networking lab setups, security configurations, and full-stack cloud hosting patterns developed during my **DevOps and Cloud Engineering Winter & Summer Training programs**.
 
----
-
 ## 🎓 Training & Hands-On Foundation
 
 Through my **Winter and Summer DevOps & Cloud Engineering Training**, I gained deep practical experience in provisioning, securing, and automating cloud infrastructure on AWS. My training focused on moving beyond basic console configurations into architectural best practices, script-based automation, and infrastructure lifecycle management.
@@ -15,8 +13,6 @@ Through my **Winter and Summer DevOps & Cloud Engineering Training**, I gained d
 * **Networking & Security:** Building isolated custom VPCs from scratch with public/private subnets, NAT Gateways, Internet Gateways, and strict IAM security policies.
 * **Serverless & Event-Driven Systems:** Integrating AWS Lambda, API Gateway, DynamoDB, EventBridge, SNS, and SQS for decoupled, auto-scaling microservices.
 * **Infrastructure as Code (IaC) & DevOps Tools:** Provisioning AWS resources via Terraform, writing custom Bash scripts for deployment automation, containerizing apps with Docker, orchestrating with Kubernetes, and setting up CI/CD pipelines using Jenkins and AWS Amplify.
-
----
 
 ## 📂 Repository Structure & Modules
 
