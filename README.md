@@ -53,37 +53,38 @@ AWS_Services/
 └── Reading_Materials                    # Reference Notes & Architectural Diagrams
 ```
 
-##🛠️ Tech Stack & Tools Mastered
-    Category                                 Technologies & AWS Services
-    Compute & Web                            Amazon EC2, Nginx, Node.js, React.js, MERN Stack, AWS Amplify
-    Networking & DNS                         AWS VPC, Public/Private Subnets, NAT Gateway, Internet Gateway, Route 53
-    Storage & Database                       Amazon S3, Amazon DynamoDB
-    Serverless & Messaging                   AWS Lambda, Amazon API Gateway, Amazon EventBridge, Amazon SNS, Amazon SQS
-    DevOps & IaC                             Terraform, Docker, Kubernetes, Jenkins, Bash / Shell Scripting
-    Security & Admin                         AWS IAM (Roles, Policies, Trust Relationships), Linux CLI Administration
+## 🛠️ Tech Stack & Tools Mastered
 
-##🏗️ Core Architectural Patterns Implemented
+**Category                                     Technologies & AWS Services**
+* **Compute & Web**                            Amazon EC2, Nginx, Node.js, React.js, MERN Stack, AWS Amplify
+* **Networking & DNS**                         AWS VPC, Public/Private Subnets, NAT Gateway, Internet Gateway, Route 53
+* **Storage & Database**                       Amazon S3, Amazon DynamoDB
+* **Serverless & Messaging**                   AWS Lambda, Amazon API Gateway, Amazon EventBridge, Amazon SNS, Amazon SQS
+* **DevOps & IaC**                             Terraform, Docker, Kubernetes, Jenkins, Bash / Shell Scripting
+* **Security & Admin**                         AWS IAM (Roles, Policies, Trust Relationships), Linux CLI Administration
 
-###1. Multi-Tier Secure VPC Architecture (07_AWS_EC2_VPC – 09_AWS_EC2_MERN_DNS)
-* ** Isolated public and private subnets across Availability Zones.
-* ** Configured NAT Gateways to grant private database instances secure outbound internet access for updates while blocking incoming public exposure.
+## 🏗️ Core Architectural Patterns Implemented
 
-###2. Serverless Microservices Pipeline (18_AWS_API_Gateway_Lambda_DynamoDB & 19_AWS_Event_Bridge_SNS_SQS_Lambda)
-* ** Exposed REST APIs via API Gateway triggering AWS Lambda functions to write data to DynamoDB.
-* ** Built asynchronous messaging pipelines using EventBridge, SNS, and SQS queues for decoupling application services.
+### 1. Multi-Tier Secure VPC Architecture (07_AWS_EC2_VPC – 09_AWS_EC2_MERN_DNS)
+* Isolated public and private subnets across Availability Zones.
+* Configured NAT Gateways to grant private database instances secure outbound internet access for updates while blocking incoming public exposure.
 
-###3. Automated Deployment & Infrastructure as Code (21_Docker – 23_Jenkins_Server_in_EC2)
-* ** Containerized Node.js applications with Docker.
-* ** Automated EC2 server provisioning using Terraform.
-* ** Deployed a dedicated Jenkins build server on EC2 to automate deployment workflows.
+### 2. Serverless Microservices Pipeline (18_AWS_API_Gateway_Lambda_DynamoDB & 19_AWS_Event_Bridge_SNS_SQS_Lambda)
+* Exposed REST APIs via API Gateway triggering AWS Lambda functions to write data to DynamoDB.
+* Built asynchronous messaging pipelines using EventBridge, SNS, and SQS queues for decoupling application services.
 
-##🚀 Prerequisites & Getting Started 
+### 3. Automated Deployment & Infrastructure as Code (21_Docker – 23_Jenkins_Server_in_EC2)
+* Containerized Node.js applications with Docker.
+* Automated EC2 server provisioning using Terraform.
+* Deployed a dedicated Jenkins build server on EC2 to automate deployment workflows.
+
+## 🚀 Prerequisites & Getting Started 
 
 ### Local Setup Requirements  
-* ** AWS CLI v2 configured with appropriate permissions (aws configure)
-* ** Terraform (>= v1.0)
-* ** Docker Desktop 
-* ** Node.js (v18+) & Git
+* AWS CLI v2 configured with appropriate permissions (aws configure)
+* Terraform (>= v1.0)
+* Docker Desktop 
+* Node.js (v18+) & Git
     
 ### Clone & Explore
     
@@ -97,6 +98,6 @@ AWS_Services/
       # Follow module-specific instructions or inspect script configurations
       ```
 
-##🛡️ Security Best Practices
-* ** Credential Hygiene: All API keys, AWS credentials, and .pem SSH keys are strictly scrubbed and kept out of version control (.gitignore enforced).
-* ** Least Privilege: Infrastructure resources utilize granular IAM roles and scoped policies.
+## 🛡️ Security Best Practices
+* Credential Hygiene: All API keys, AWS credentials, and .pem SSH keys are strictly scrubbed and kept out of version control (.gitignore enforced).
+* Least Privilege: Infrastructure resources utilize granular IAM roles and scoped policies.
