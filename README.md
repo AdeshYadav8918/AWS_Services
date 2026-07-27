@@ -65,15 +65,15 @@ AWS_Services/
 
 ## 🏗️ Core Architectural Patterns Implemented
 
-### 1. Multi-Tier Secure VPC Architecture (07_AWS_EC2_VPC – 09_AWS_EC2_MERN_DNS)
+### 1. Multi-Tier Secure VPC Architecture
 * Isolated public and private subnets across Availability Zones.
 * Configured NAT Gateways to grant private database instances secure outbound internet access for updates while blocking incoming public exposure.
 
-### 2. Serverless Microservices Pipeline (18_AWS_API_Gateway_Lambda_DynamoDB & 19_AWS_Event_Bridge_SNS_SQS_Lambda)
+### 2. Serverless Microservices Pipeline
 * Exposed REST APIs via API Gateway triggering AWS Lambda functions to write data to DynamoDB.
 * Built asynchronous messaging pipelines using EventBridge, SNS, and SQS queues for decoupling application services.
 
-### 3. Automated Deployment & Infrastructure as Code (21_Docker – 23_Jenkins_Server_in_EC2)
+### 3. Automated Deployment & Infrastructure as Code
 * Containerized Node.js applications with Docker.
 * Automated EC2 server provisioning using Terraform.
 * Deployed a dedicated Jenkins build server on EC2 to automate deployment workflows.
